@@ -11,13 +11,13 @@ import { VpcEndpointsStack } from "../lib/vpc-endpoints-stack";
  */
 test("It should have a resource ID that starts with Vpclogs", () => {
   const app = new cdk.App();
-  const resourceIdPrefix = "Vpclogs";
+  const logicalIdPrefix = "Vpclogs";
   const stack = new VpcEndpointsStack(app, "MyTestStack");
   const template = Template.fromStack(stack);
   const resources = template.toJSON().Resources;
   const result = Object.keys(resources)
-    .filter(key => key.startsWith(resourceIdPrefix))
+    .filter(key => key.startsWith(logicalIdPrefix))
     .filter(key => key.indexOf("SecurityGroup") === -1) // exclude the security group resource
     .map(key => key);
-  expect(result[0]).toMatch(new RegExp(`^${resourceIdPrefix}?`));
+  expect(result[0]).toMatch(new RegExp(`^${logicalIdPrefix}?`));
 });

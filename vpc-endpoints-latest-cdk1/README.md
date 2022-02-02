@@ -1,4 +1,4 @@
-# VPC Endpoint Resource ID issue for CDK 1.142.0 and up
+# VPC Endpoint logical ID issue for CDK 1.142.0 and up
 
 This project demonstrates how the issue breaks. You will get the same results from the [vpc-endpoints-latest-cdk2](../vpc-endpoints-latest-cdk2) project as well.
 

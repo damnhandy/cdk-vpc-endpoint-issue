@@ -1,0 +1,1036 @@
+{
+  "version": "16.0.0",
+  "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
+    "VpcEndpointsStack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "VpcEndpointsStack.template.json",
+        "validateOnSynth": false
+      },
+      "metadata": {
+        "/VpcEndpointsStack/Vpc/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Vpc8378EB38",
+            "trace": [
+              "new Vpc (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:768:21)",
+              "new VpcEndpointsStack (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/lib/vpc-endpoints-stack.ts:11:16)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/bin/vpc-endpoints.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "main (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/VpcEndpointsStack/Vpc/PublicSubnet1/Subnet": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VpcPublicSubnet1Subnet5C2D37C4",
+            "trace": [
+              "new Subnet (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1071:20)",
+              "new PublicSubnet (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1227:5)",
+              "/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:956:32",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:927:28)",
+              "Vpc.createSubnets (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:922:12)",
+              "new Vpc (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:802:10)",
+              "new VpcEndpointsStack (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/lib/vpc-endpoints-stack.ts:11:16)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/bin/vpc-endpoints.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "main (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/VpcEndpointsStack/Vpc/PublicSubnet1/RouteTable": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VpcPublicSubnet1RouteTable6C95E38E",
+            "trace": [
+              "new Subnet (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1089:19)",
+              "new PublicSubnet (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1227:5)",
+              "/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:956:32",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:927:28)",
+              "Vpc.createSubnets (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:922:12)",
+              "new Vpc (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:802:10)",
+              "new VpcEndpointsStack (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/lib/vpc-endpoints-stack.ts:11:16)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/bin/vpc-endpoints.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "main (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/VpcEndpointsStack/Vpc/PublicSubnet1/RouteTableAssociation": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VpcPublicSubnet1RouteTableAssociation97140677",
+            "trace": [
+              "new Subnet (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1095:5)",
+              "new PublicSubnet (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1227:5)",
+              "/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:956:32",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:927:28)",
+              "Vpc.createSubnets (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:922:12)",
+              "new Vpc (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:802:10)",
+              "new VpcEndpointsStack (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/lib/vpc-endpoints-stack.ts:11:16)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/bin/vpc-endpoints.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "main (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/VpcEndpointsStack/Vpc/PublicSubnet1/DefaultRoute": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VpcPublicSubnet1DefaultRoute3DA9E72A",
+            "trace": [
+              "PublicSubnet.addDefaultInternetRoute (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1105:19)",
+              "/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:821:22",
+              "Array.forEach (<anonymous>)",
+              "new Vpc (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:820:46)",
+              "new VpcEndpointsStack (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/lib/vpc-endpoints-stack.ts:11:16)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/bin/vpc-endpoints.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "main (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/VpcEndpointsStack/Vpc/PublicSubnet1/EIP": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VpcPublicSubnet1EIPD7E02669",
+            "trace": [
+              "PublicSubnet.addNatGateway (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1235:40)",
+              "NatGatewayProvider.configureNat (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/nat.ts:117:27)",
+              "Vpc.createNatGateways (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:897:14)",
+              "new Vpc (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:827:14)",
+              "new VpcEndpointsStack (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/lib/vpc-endpoints-stack.ts:11:16)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/bin/vpc-endpoints.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "main (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/VpcEndpointsStack/Vpc/PublicSubnet1/NATGateway": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VpcPublicSubnet1NATGateway4D7517AA",
+            "trace": [
+              "PublicSubnet.addNatGateway (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1233:17)",
+              "NatGatewayProvider.configureNat (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/nat.ts:117:27)",
+              "Vpc.createNatGateways (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:897:14)",
+              "new Vpc (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:827:14)",
+              "new VpcEndpointsStack (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/lib/vpc-endpoints-stack.ts:11:16)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/bin/vpc-endpoints.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "main (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/VpcEndpointsStack/Vpc/PublicSubnet2/Subnet": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VpcPublicSubnet2Subnet691E08A3",
+            "trace": [
+              "new Subnet (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1071:20)",
+              "new PublicSubnet (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1227:5)",
+              "/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:956:32",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:927:28)",
+              "Vpc.createSubnets (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:922:12)",
+              "new Vpc (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:802:10)",
+              "new VpcEndpointsStack (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/lib/vpc-endpoints-stack.ts:11:16)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/bin/vpc-endpoints.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "main (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/VpcEndpointsStack/Vpc/PublicSubnet2/RouteTable": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VpcPublicSubnet2RouteTable94F7E489",
+            "trace": [
+              "new Subnet (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1089:19)",
+              "new PublicSubnet (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1227:5)",
+              "/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:956:32",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:927:28)",
+              "Vpc.createSubnets (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:922:12)",
+              "new Vpc (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:802:10)",
+              "new VpcEndpointsStack (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/lib/vpc-endpoints-stack.ts:11:16)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/bin/vpc-endpoints.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "main (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/VpcEndpointsStack/Vpc/PublicSubnet2/RouteTableAssociation": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VpcPublicSubnet2RouteTableAssociationDD5762D8",
+            "trace": [
+              "new Subnet (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1095:5)",
+              "new PublicSubnet (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1227:5)",
+              "/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:956:32",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:927:28)",
+              "Vpc.createSubnets (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:922:12)",
+              "new Vpc (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:802:10)",
+              "new VpcEndpointsStack (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/lib/vpc-endpoints-stack.ts:11:16)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/bin/vpc-endpoints.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "main (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/VpcEndpointsStack/Vpc/PublicSubnet2/DefaultRoute": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VpcPublicSubnet2DefaultRoute97F91067",
+            "trace": [
+              "PublicSubnet.addDefaultInternetRoute (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1105:19)",
+              "/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:821:22",
+              "Array.forEach (<anonymous>)",
+              "new Vpc (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:820:46)",
+              "new VpcEndpointsStack (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/lib/vpc-endpoints-stack.ts:11:16)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/bin/vpc-endpoints.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "main (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/VpcEndpointsStack/Vpc/PublicSubnet2/EIP": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VpcPublicSubnet2EIP3C605A87",
+            "trace": [
+              "PublicSubnet.addNatGateway (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1235:40)",
+              "NatGatewayProvider.configureNat (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/nat.ts:117:27)",
+              "Vpc.createNatGateways (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:897:14)",
+              "new Vpc (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:827:14)",
+              "new VpcEndpointsStack (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/lib/vpc-endpoints-stack.ts:11:16)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/bin/vpc-endpoints.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "main (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/VpcEndpointsStack/Vpc/PublicSubnet2/NATGateway": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VpcPublicSubnet2NATGateway9182C01D",
+            "trace": [
+              "PublicSubnet.addNatGateway (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1233:17)",
+              "NatGatewayProvider.configureNat (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/nat.ts:117:27)",
+              "Vpc.createNatGateways (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:897:14)",
+              "new Vpc (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:827:14)",
+              "new VpcEndpointsStack (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/lib/vpc-endpoints-stack.ts:11:16)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/bin/vpc-endpoints.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "main (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/VpcEndpointsStack/Vpc/PrivateSubnet1/Subnet": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VpcPrivateSubnet1Subnet536B997A",
+            "trace": [
+              "new Subnet (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1071:20)",
+              "new PrivateSubnet (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1259:5)",
+              "/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:961:33",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:927:28)",
+              "Vpc.createSubnets (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:922:12)",
+              "new Vpc (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:802:10)",
+              "new VpcEndpointsStack (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/lib/vpc-endpoints-stack.ts:11:16)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/bin/vpc-endpoints.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "main (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/VpcEndpointsStack/Vpc/PrivateSubnet1/RouteTable": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VpcPrivateSubnet1RouteTableB2C5B500",
+            "trace": [
+              "new Subnet (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1089:19)",
+              "new PrivateSubnet (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1259:5)",
+              "/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:961:33",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:927:28)",
+              "Vpc.createSubnets (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:922:12)",
+              "new Vpc (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:802:10)",
+              "new VpcEndpointsStack (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/lib/vpc-endpoints-stack.ts:11:16)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/bin/vpc-endpoints.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "main (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/VpcEndpointsStack/Vpc/PrivateSubnet1/RouteTableAssociation": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VpcPrivateSubnet1RouteTableAssociation70C59FA6",
+            "trace": [
+              "new Subnet (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1095:5)",
+              "new PrivateSubnet (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1259:5)",
+              "/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:961:33",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:927:28)",
+              "Vpc.createSubnets (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:922:12)",
+              "new Vpc (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:802:10)",
+              "new VpcEndpointsStack (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/lib/vpc-endpoints-stack.ts:11:16)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/bin/vpc-endpoints.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "main (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/VpcEndpointsStack/Vpc/PrivateSubnet1/DefaultRoute": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VpcPrivateSubnet1DefaultRouteBE02A9ED",
+            "trace": [
+              "PrivateSubnet.addRoute (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1137:19)",
+              "NatGatewayProvider.configureSubnet (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/nat.ts:131:12)",
+              "NatGatewayProvider.configureNat (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/nat.ts:124:12)",
+              "Vpc.createNatGateways (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:897:14)",
+              "new Vpc (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:827:14)",
+              "new VpcEndpointsStack (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/lib/vpc-endpoints-stack.ts:11:16)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/bin/vpc-endpoints.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "main (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/VpcEndpointsStack/Vpc/PrivateSubnet2/Subnet": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VpcPrivateSubnet2Subnet3788AAA1",
+            "trace": [
+              "new Subnet (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1071:20)",
+              "new PrivateSubnet (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1259:5)",
+              "/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:961:33",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:927:28)",
+              "Vpc.createSubnets (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:922:12)",
+              "new Vpc (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:802:10)",
+              "new VpcEndpointsStack (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/lib/vpc-endpoints-stack.ts:11:16)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/bin/vpc-endpoints.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "main (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/VpcEndpointsStack/Vpc/PrivateSubnet2/RouteTable": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VpcPrivateSubnet2RouteTableA678073B",
+            "trace": [
+              "new Subnet (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1089:19)",
+              "new PrivateSubnet (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1259:5)",
+              "/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:961:33",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:927:28)",
+              "Vpc.createSubnets (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:922:12)",
+              "new Vpc (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:802:10)",
+              "new VpcEndpointsStack (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/lib/vpc-endpoints-stack.ts:11:16)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/bin/vpc-endpoints.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "main (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/VpcEndpointsStack/Vpc/PrivateSubnet2/RouteTableAssociation": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VpcPrivateSubnet2RouteTableAssociationA89CAD56",
+            "trace": [
+              "new Subnet (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1095:5)",
+              "new PrivateSubnet (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1259:5)",
+              "/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:961:33",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:927:28)",
+              "Vpc.createSubnets (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:922:12)",
+              "new Vpc (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:802:10)",
+              "new VpcEndpointsStack (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/lib/vpc-endpoints-stack.ts:11:16)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/bin/vpc-endpoints.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "main (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/VpcEndpointsStack/Vpc/PrivateSubnet2/DefaultRoute": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VpcPrivateSubnet2DefaultRoute060D2087",
+            "trace": [
+              "PrivateSubnet.addRoute (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:1137:19)",
+              "NatGatewayProvider.configureSubnet (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/nat.ts:131:12)",
+              "NatGatewayProvider.configureNat (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/nat.ts:124:12)",
+              "Vpc.createNatGateways (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:897:14)",
+              "new Vpc (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:827:14)",
+              "new VpcEndpointsStack (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/lib/vpc-endpoints-stack.ts:11:16)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/bin/vpc-endpoints.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "main (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/VpcEndpointsStack/Vpc/IGW": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VpcIGWD7BA715C",
+            "trace": [
+              "new Vpc (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:809:19)",
+              "new VpcEndpointsStack (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/lib/vpc-endpoints-stack.ts:11:16)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/bin/vpc-endpoints.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "main (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/VpcEndpointsStack/Vpc/VPCGW": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VpcVPCGWBF912B6E",
+            "trace": [
+              "new Vpc (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:815:19)",
+              "new VpcEndpointsStack (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/lib/vpc-endpoints-stack.ts:11:16)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/bin/vpc-endpoints.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "main (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/VpcEndpointsStack/Vpc/108]}/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Vpc10820C02E9D",
+            "trace": [
+              "new InterfaceVpcEndpoint (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc-endpoint.ts:389:22)",
+              "Vpc.addInterfaceEndpoint (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:319:12)",
+              "VpcEndpointsStack.addInterfaceEndpoints (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/lib/vpc-endpoints-stack.ts:35:33)",
+              "new VpcEndpointsStack (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/lib/vpc-endpoints-stack.ts:20:10)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/bin/vpc-endpoints.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "main (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/VpcEndpointsStack/Vpc/111]}/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Vpc11118F9CFEB",
+            "trace": [
+              "new InterfaceVpcEndpoint (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc-endpoint.ts:389:22)",
+              "Vpc.addInterfaceEndpoint (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:319:12)",
+              "VpcEndpointsStack.addInterfaceEndpoints (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/lib/vpc-endpoints-stack.ts:35:33)",
+              "new VpcEndpointsStack (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/lib/vpc-endpoints-stack.ts:20:10)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/bin/vpc-endpoints.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "main (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/VpcEndpointsStack/Vpc/141]}/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Vpc14129FDCC12",
+            "trace": [
+              "new InterfaceVpcEndpoint (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc-endpoint.ts:389:22)",
+              "Vpc.addInterfaceEndpoint (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:319:12)",
+              "VpcEndpointsStack.addInterfaceEndpoints (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/lib/vpc-endpoints-stack.ts:35:33)",
+              "new VpcEndpointsStack (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/lib/vpc-endpoints-stack.ts:20:10)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/bin/vpc-endpoints.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "main (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/VpcEndpointsStack/Vpc/129]}/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Vpc12941B3BFB3",
+            "trace": [
+              "new InterfaceVpcEndpoint (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc-endpoint.ts:389:22)",
+              "Vpc.addInterfaceEndpoint (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:319:12)",
+              "VpcEndpointsStack.addInterfaceEndpoints (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/lib/vpc-endpoints-stack.ts:35:33)",
+              "new VpcEndpointsStack (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/lib/vpc-endpoints-stack.ts:20:10)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/bin/vpc-endpoints.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "main (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/VpcEndpointsStack/Vpc/60]}/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Vpc60133B663B",
+            "trace": [
+              "new InterfaceVpcEndpoint (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc-endpoint.ts:389:22)",
+              "Vpc.addInterfaceEndpoint (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:319:12)",
+              "VpcEndpointsStack.addInterfaceEndpoints (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/lib/vpc-endpoints-stack.ts:35:33)",
+              "new VpcEndpointsStack (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/lib/vpc-endpoints-stack.ts:20:10)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/bin/vpc-endpoints.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "main (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/VpcEndpointsStack/Vpc/54]}/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Vpc5410778EE2",
+            "trace": [
+              "new InterfaceVpcEndpoint (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc-endpoint.ts:389:22)",
+              "Vpc.addInterfaceEndpoint (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:319:12)",
+              "VpcEndpointsStack.addInterfaceEndpoints (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/lib/vpc-endpoints-stack.ts:35:33)",
+              "new VpcEndpointsStack (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/lib/vpc-endpoints-stack.ts:20:10)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/bin/vpc-endpoints.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "main (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/VpcEndpointsStack/Vpc/57]}/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Vpc57A271CB7B",
+            "trace": [
+              "new InterfaceVpcEndpoint (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc-endpoint.ts:389:22)",
+              "Vpc.addInterfaceEndpoint (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:319:12)",
+              "VpcEndpointsStack.addInterfaceEndpoints (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/lib/vpc-endpoints-stack.ts:35:33)",
+              "new VpcEndpointsStack (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/lib/vpc-endpoints-stack.ts:20:10)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/bin/vpc-endpoints.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "main (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/VpcEndpointsStack/Vpc/24]}/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Vpc24AED9C91D",
+            "trace": [
+              "new InterfaceVpcEndpoint (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc-endpoint.ts:389:22)",
+              "Vpc.addInterfaceEndpoint (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/vpc.ts:319:12)",
+              "VpcEndpointsStack.addInterfaceEndpoints (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/lib/vpc-endpoints-stack.ts:35:33)",
+              "new VpcEndpointsStack (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/lib/vpc-endpoints-stack.ts:20:10)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/bin/vpc-endpoints.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "main (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/VpcEndpointsStack/SharedVpcEndpointSecurityGroup/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SharedVpcEndpointSecurityGroup6005EF3C",
+            "trace": [
+              "new SecurityGroup (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/security-group.ts:272:26)",
+              "new VpcEndpointsStack (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/lib/vpc-endpoints-stack.ts:15:34)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/bin/vpc-endpoints.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "main (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/VpcEndpointsStack/SharedVpcEndpointSecurityGroup/to VpcEndpointsStackSharedVpcEndpointSecurityGroupA1677C7B:443": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SharedVpcEndpointSecurityGrouptoVpcEndpointsStackSharedVpcEndpointSecurityGroupA1677C7B443168E8BD0",
+            "trace": [
+              "SecurityGroup.addEgressRule (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/security-group.ts:85:7)",
+              "SecurityGroup.addEgressRule (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/aws-ec2/lib/security-group.ts:321:13)",
+              "VpcEndpointsStack.addInterfaceEndpoints (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/lib/vpc-endpoints-stack.ts:40:34)",
+              "new VpcEndpointsStack (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/lib/vpc-endpoints-stack.ts:20:10)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/bin/vpc-endpoints.ts:7:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Module.m._compile (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "main (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1101:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/VpcEndpointsStack/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata",
+            "trace": [
+              "new MetadataResource (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/core/lib/private/metadata-resource.ts:22:24)",
+              "/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/core/lib/private/synthesis.ts:166:5",
+              "visit (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/core/lib/private/synthesis.ts:231:5)",
+              "visit (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/core/lib/private/synthesis.ts:227:5)",
+              "injectMetadataResources (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/core/lib/private/synthesis.ts:157:3)",
+              "Object.synthesize (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/core/lib/private/synthesis.ts:18:3)",
+              "App.synth (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/core/lib/stage.ts:94:23)",
+              "process.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/core/lib/app.ts:64:45)",
+              "Object.onceWrapper (node:events:510:26)",
+              "process.emit (node:events:390:28)",
+              "process.emit (node:domain:475:12)",
+              "process.emit (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/source-map-support/source-map-support.js:516:21)"
+            ]
+          }
+        ],
+        "/VpcEndpointsStack/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable",
+            "trace": [
+              "new MetadataResource (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/core/lib/private/metadata-resource.ts:31:27)",
+              "/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/core/lib/private/synthesis.ts:166:5",
+              "visit (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/core/lib/private/synthesis.ts:231:5)",
+              "visit (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/core/lib/private/synthesis.ts:227:5)",
+              "injectMetadataResources (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/core/lib/private/synthesis.ts:157:3)",
+              "Object.synthesize (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/core/lib/private/synthesis.ts:18:3)",
+              "App.synth (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/core/lib/stage.ts:94:23)",
+              "process.<anonymous> (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/@aws-cdk/core/lib/app.ts:64:45)",
+              "Object.onceWrapper (node:events:510:26)",
+              "process.emit (node:events:390:28)",
+              "process.emit (node:domain:475:12)",
+              "process.emit (/Users/mcdrya/Projects/GitHub/vpc-endpoint-resource-names/vpc-endpoints-cdk1/node_modules/source-map-support/source-map-support.js:516:21)"
+            ]
+          }
+        ]
+      },
+      "displayName": "VpcEndpointsStack"
+    }
+  }
+}

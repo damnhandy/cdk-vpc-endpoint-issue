@@ -1,6 +1,9 @@
 # CDK VPC Endpoint Issue
 
-Prior to [CDK 1.120.0](https://github.com/aws/aws-cdk/releases/tag/v1.120.0), VPC Endpoints would have a consistent resource name in the synthesized CloudFormation. Given a VPC resource name of `Vpc`, a Cloud Watch Logs VPC Endpoint Resource would be synthesized like the following:
+Prior to [CDK 1.120.0](https://github.com/aws/aws-cdk/releases/tag/v1.120.0), VPC Endpoints would have a consistent logical ID and `aws:cdk:path` value in the synthesized CloudFormation template. Starting with [CDK 1.120.0](https://github.com/aws/aws-cdk/releases/tag/v1.120.0) and beyond, CDK will generate new logical ID and `aws:cdk:path` values every time the project is synthesized. If one is applying the stack to update to an existing deployment, the `cdk deploy` phase will always fails as it's attempting to replace the existing VPC endpoint. 
+
+
+Given a VPC resource name of `Vpc`, a Cloud Watch Logs VPC Endpoint Resource would be synthesized like the following:
 
 ```json
  "Vpclogs2AF248A8": {
